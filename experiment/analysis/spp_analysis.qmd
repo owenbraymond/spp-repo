@@ -1,0 +1,317 @@
+---
+title: "Stress perception: F0 x F1 cue weighting"
+---
+
+## Workspace setup
+
+#### Libraries
+
+```{r}
+library(tidyverse)
+library(patchwork)
+```
+
+#### Data
+
+The combined, de-identified trial data ships as `data/spp_data.csv`. The chunk
+below shows how it was built from the raw Testable exports (not included in the
+repo because they carry browser and timestamp metadata).
+
+```{r}
+#| eval: false
+files_to_read = list.files(
+  path = "./results/",
+  pattern = "*.csv$",
+  recursive = TRUE,
+  full.names = TRUE
+)
+data_lst <- lapply(files_to_read, function(x) {
+  read_csv(x, skip = 3) %>%
+    mutate(
+      rownum = row_number(),
+      percept = case_when(
+        rownum <= 81 & response == "left"  ~ "iambic",
+        rownum <= 81 & response == "right" ~ "trochaic",
+        rownum >  81 & response == "left"  ~ "same",
+        rownum >  81 & response == "right" ~ "different",
+        TRUE ~ NA_character_ # Catch-all for any missed cases
+      )
+    )
+})
+
+names(data_lst) <- seq_along(files_to_read)
+
+spp_data <- bind_rows(data_lst, .id = "participant_num")
+
+write.csv(spp_data, "data/spp_data.csv")
+```
+
+```{r}
+spp_data <- read_csv("data/spp_data.csv")
+```
+
+## Preliminary Visualization
+
+```{r}
+
+id_plot_data <- spp_data %>%
+  filter(rownum <= 81) %>%
+  mutate(
+    f0 = as.numeric(f0), 
+    f1 = as.numeric(f1)
+  ) %>%
+  group_by(f1) %>%
+  summarise(
+    prop_iambic = mean(percept == "iambic", na.rm = TRUE),
+    prop_trochaic = mean(percept == "trochaic", na.rm = TRUE),
+    .groups = "drop"
+  )
+
+# 2. Create the ggplot
+ggplot(id_plot_data, aes(x = f1, y = prop_iambic)) +
+  geom_line(aes(group = 1), color = "gray") +
+  geom_point(size = 3) +
+  scale_x_continuous(breaks = 1:9) +
+  scale_y_continuous(labels = scales::percent, limits = c(0, 1)) +
+  labs(
+    title = "Identification Task: Cue Weighting of F1 (Vowel Quality)",
+    x = "F1 Step (Vowel Centralization)",
+    y = "% Iambic Responses (ob-JECT)"
+  ) +
+  theme_minimal()
+```
+
+```{r}
+id_heatmap_data <- spp_data %>%
+  filter(rownum <= 81) %>%
+  mutate(
+    f0 = as.numeric(f0),
+    f1 = as.numeric(f1)
+  ) %>%
+  group_by(f0, f1) %>%
+  summarise(
+    prop_iambic = mean(percept == "iambic", na.rm = TRUE),
+    .groups = "drop"
+  )
+
+# 2. Create the Heatmap
+ggplot(id_heatmap_data, aes(x = f1, y = f0, fill = prop_iambic)) +
+  geom_tile(color = "white") +
+  scale_fill_gradient2(
+    low = "blue",      # Low % iambic (Trochaic/Noun)
+    mid = "white",     # The 50% Perceptual Boundary
+    high = "red",      # High % iambic (Iambic/Verb)
+    midpoint = 0.5,
+    labels = scales::percent
+  ) +
+  scale_x_continuous(breaks = 1:9) +
+  scale_y_continuous(breaks = 1:9) +
+  labs(
+    title = "9x9 Identification Heatmap",
+    subtitle = "White zone represents the Perceptual Category Boundary",
+    x = "F1 Step (Vowel Quality)",
+    y = "F0 Step (Pitch)",
+    fill = "% Iambic"
+  ) +
+  theme_minimal()
+```
+
+```{r}
+# Prep the data
+clean_data <- spp_data %>%
+  filter(rownum <= 81) %>%
+  mutate(
+    f0 = as.numeric(f0),
+    f1 = as.numeric(f1),
+    is_iambic = ifelse(percept == "iambic", 1, 0)
+  )
+
+# Plot 1: The F0 (Pitch) Trend
+f0_plot <- clean_data %>%
+  group_by(f0) %>%
+  summarise(prop = mean(is_iambic, na.rm = TRUE)) %>%
+  ggplot(aes(x = f0, y = prop)) +
+  geom_point(size = 3, color = "darkblue") +
+  geom_line(color = "darkblue", size = 1) +
+  scale_x_continuous(breaks = 1:9) +
+  scale_y_continuous(labels = scales::percent, limits = c(0, 1)) +
+  labs(title = "Main Effect of Pitch (F0)", x = "F0 Step", y = "% Iambic (ob-JECT)") +
+  theme_minimal()
+
+# Plot 2: The F1 (Vowel) Trend
+f1_plot <- clean_data %>%
+  group_by(f1) %>%
+  summarise(prop = mean(is_iambic, na.rm = TRUE)) %>%
+  ggplot(aes(x = f1, y = prop)) +
+  geom_point(size = 3, color = "darkred") +
+  geom_line(color = "darkred", size = 1) +
+  scale_x_continuous(breaks = 1:9) +
+  scale_y_continuous(labels = scales::percent, limits = c(0, 1)) +
+  labs(title = "Main Effect of Vowel (F1)", x = "F1 Step", y = "") +
+  theme_minimal()
+
+# Show them together (Requires patchwork package)
+f0_plot + f1_plot
+```
+
+```{r}
+clean_data <- spp_data %>%
+  filter(rownum <= 81) %>% #get only identification trials!!!!!!!!
+  mutate(
+    f0 = as.numeric(f0),
+    f1 = as.numeric(f1),
+    is_iambic = ifelse(percept == "iambic", 1, 0)
+  )
+
+f0_summary <- clean_data %>%
+  group_by(f0) %>%
+  summarise(prop = mean(is_iambic, na.rm = TRUE))
+
+f0_summary
+```
+
+## Discrimination
+
+Getting only discrim trials and setting up 1s and 0s for different vs same
+
+```{r}
+discrim_data <- spp_data %>%
+  filter(trialText == "LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND") %>%
+  mutate(diff_resp = ifelse(percept == "different", 1, 0)) %>%
+  mutate(diff_true = ifelse(stim1 == stim2, 0, 1)) %>%
+  mutate(
+    cue_type = case_when(
+      grepl(",", f0) ~ "F0",
+      grepl(",", f1) ~ "F1",
+      TRUE ~ "Same"
+    )
+  ) %>%
+  mutate(order_invariant_pair = case_when(
+    cue_type == "F0" ~ sapply(strsplit(as.character(f0), ",\\s*"), 
+                              function(x) paste(sort(as.numeric(x)), collapse="-")),
+    cue_type == "F1" ~ sapply(strsplit(as.character(f1), ",\\s*"), 
+                              function(x) paste(sort(as.numeric(x)), collapse="-")),
+    cue_type == "Same" ~ paste0(f0, "-", f0)
+  ))
+```
+
+Viz
+
+```{r}
+plot_data <- discrim_data %>% filter(cue_type != "Same")
+
+ggplot(plot_data, aes(x = order_invariant_pair, y = diff_resp, color = cue_type, group = cue_type)) +
+  stat_summary(fun = mean, geom = "line", size = 1) +
+  stat_summary(fun = mean, geom = "point", size = 3) +
+  theme_minimal() +
+  scale_y_continuous(
+    limits = c(0, 1),
+    breaks = seq(0, 1, 0.1),
+    expand = c(0, 0)
+  ) + labs(x = "F0 and F1 Steps", y = "Proportion of 'Different' Responses", color = "Cue Type") +
+  scale_color_manual(
+    values = c("F0" = "darkblue", "F1" = "darkred"),
+    labels = c("F0" = "Pitch (F0)", "F1" = "Vowel (F1)") 
+  ) +
+theme(legend.position = "bottom")
+```
+
+```{r}
+ggplot(filter(discrim_data, cue_type != "Same"),
+       aes(x = order_invariant_pair, y = diff_resp, color = cue_type)) +
+  
+  # stat_summary calculates the mean of your 0s and 1s
+  stat_summary(fun = mean, geom = "line", aes(group = cue_type), size = 1) +
+  stat_summary(fun = mean, geom = "point", size = 3) +
+  
+  # Aesthetics to match the 'minimal' and rotated look
+  scale_y_continuous(labels = scales::percent, limits = c(0, 1)) +
+  scale_color_manual(values = c("F0" = "#08306b", "F1" = "#800026")) +
+  
+  labs(
+    title = "Discrimination Results",
+    x = "Order-Invariant Step Pair",
+    y = "Prop. of Correct 'Different' Responses",
+    color = "Cue"
+  ) +
+  theme_minimal() +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.position = "bottom"
+  )
+```
+
+```{r}
+discrim_summary <- discrim_data %>%
+  filter(diff_true == 1) %>% # Only look at trials where a change actually happened
+  group_by(cue_type, order_invariant_pair) %>%
+  summarise(
+    prop_diff = mean(diff_resp, na.rm = TRUE),
+    n = n()
+  ) %>%
+  arrange(cue_type, order_invariant_pair)
+
+# View the results
+print(discrim_summary)
+```
+
+## Pilot Study
+
+```{r}
+pilot_data <- read.csv("data/pilot_trials.csv") %>%
+  filter(type == "test") %>%
+  mutate(
+    is_ax = grepl(",", f1) | stim2 != "",
+    is_iambic = ifelse(response == "left", 1, 0),
+    pressed_different = ifelse(response == "right", 1, 0)
+  )
+
+pilot_id <- pilot_data %>% filter(is_ax == FALSE) %>% mutate(f1_step = as.numeric(f1))
+pilot_ax <- pilot_data %>% filter(is_ax == TRUE & grepl(",", f1)) # Only 'Different' trials
+
+
+pilot_id_plot <- pilot_id %>%
+  group_by(f1_step) %>%
+  summarise(prop = mean(is_iambic, na.rm = TRUE)) %>%
+  ggplot(aes(x = f1_step, y = prop)) +
+  geom_point(size = 3, color = "darkred") +
+  geom_line(color = "darkred", linewidth = 1) +
+  scale_x_continuous(breaks = 1:9) +
+  scale_y_continuous(labels = scales::percent, limits = c(0, 1)) +
+  labs(title = "Pilot Identification (F1 in Isolation)", 
+       x = "F1 Step", 
+       y = "% Iambic (ob-JECT)") +
+  theme_minimal()
+
+
+pilot_ax_plot <- pilot_ax %>%
+  mutate(f1 = gsub("\\s*,\\s*", "-", f1)) %>%
+  group_by(f1) %>%
+  summarise(prop_diff = mean(pressed_different, na.rm = TRUE)) %>%
+  ggplot(aes(x = f1, y = prop_diff, group = 1)) +
+  geom_point(size = 3, color = "darkred") +
+  geom_line(color = "darkred", linewidth = 1) +
+  scale_y_continuous(limits = c(0, 1), breaks = seq(0, 1, 0.2)) +
+  labs(title = "Pilot Discrimination (F1 in Isolation)", 
+       x = "Step Pair (2 steps)", 
+       y = "Proportion of 'Different' Responses") +
+  theme_minimal()
+
+
+pilot_rt_plot <- pilot_id %>%
+  group_by(f1_step) %>%
+  summarise(mean_rt = mean(RT, na.rm = TRUE)) %>%
+  ggplot(aes(x = f1_step, y = mean_rt)) +
+  geom_point(size = 3, color = "darkorange") +
+  geom_line(color = "darkorange", linewidth = 1) +
+  scale_x_continuous(breaks = 1:9) +
+  labs(title = "Reaction Time", 
+       x = "F1 Step", 
+       y = "Reaction Time (ms)") +
+  theme_minimal()
+
+# Display
+pilot_id_plot
+pilot_ax_plot
+pilot_rt_plot
+```

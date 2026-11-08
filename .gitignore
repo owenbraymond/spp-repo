@@ -1,0 +1,23 @@
+# R / RStudio
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj.user
+renv/library/
+renv/staging/
+renv/local/
+renv/python/
+renv/sandbox/
+
+# Quarto
+.quarto/
+*_files/
+*.html
+
+# Praat working output
+result_duration_formant.txt
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

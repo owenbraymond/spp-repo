@@ -1,0 +1,132 @@
+type,f0,f1,stim1,stim2,key,feedback,stimFormat,ITI,random,trialText,trialTextOptions,title,content,head,keyboard,responseType,responseOptions,responseOther,audio
+instructions,,,,,,,,,,,,Welcome to the experiment!,"In this study, you are asked to listen and identify words as they are presented to you, using the left and right arrow keys to indicate your answer. 
+
+The LEFT arrow key indicates ""ob-JECT"", as in a refusal or disagreement. 
+
+The RIGHT arrow key indicates ""OB-ject"", as in a thing or an item.
+
+Please answer as accurately and as quickly as possible. Let's do some practice!",,,,,,
+test,5,1,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_1.mp3
+test,5,2,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_2.mp3
+test,5,3,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_3.mp3
+test,5,4,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_4.mp3
+test,5,5,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_5.mp3
+test,5,6,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_6.mp3
+test,5,7,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_7.mp3
+test,5,8,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_8.mp3
+test,5,9,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_9.mp3
+test,5,1,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_1.mp3
+test,5,2,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_2.mp3
+test,5,3,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_3.mp3
+test,5,4,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_4.mp3
+test,5,5,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_5.mp3
+test,5,6,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_6.mp3
+test,5,7,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_7.mp3
+test,5,8,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_8.mp3
+test,5,9,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_9.mp3
+test,5,1,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_1.mp3
+test,5,2,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_2.mp3
+test,5,3,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_3.mp3
+test,5,4,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_4.mp3
+test,5,5,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_5.mp3
+test,5,6,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_6.mp3
+test,5,7,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_7.mp3
+test,5,8,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_8.mp3
+test,5,9,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_9.mp3
+test,5,1,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_1.mp3
+test,5,2,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_2.mp3
+test,5,3,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_3.mp3
+test,5,4,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_4.mp3
+test,5,5,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_5.mp3
+test,5,6,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_6.mp3
+test,5,7,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_7.mp3
+test,5,8,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_8.mp3
+test,5,9,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_9.mp3
+test,5,1,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_1.mp3
+test,5,2,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_2.mp3
+test,5,3,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_3.mp3
+test,5,4,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_4.mp3
+test,5,5,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_5.mp3
+test,5,6,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_6.mp3
+test,5,7,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_7.mp3
+test,5,8,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_8.mp3
+test,5,9,instructions,,,,.png,400,3,,,,,,left right,,,,obJECT_f0_5_f1_9.mp3
+instructions,,,,,,,,,,,,,Great! The final part of the experiment will now begin. ,,,,,,
+test,5,"1 , 3",obJECT_f0_5_f1_1,obJECT_f0_5_f1_3,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"2 , 4",obJECT_f0_5_f1_2,obJECT_f0_5_f1_4,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"3 , 5",obJECT_f0_5_f1_3,obJECT_f0_5_f1_5,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"4 , 6",obJECT_f0_5_f1_4,obJECT_f0_5_f1_6,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"5 , 7",obJECT_f0_5_f1_5,obJECT_f0_5_f1_7,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"6 , 8",obJECT_f0_5_f1_6,obJECT_f0_5_f1_8,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"7 , 9",obJECT_f0_5_f1_7,obJECT_f0_5_f1_9,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"1 , 3",obJECT_f0_5_f1_3,obJECT_f0_5_f1_1,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"2 , 4",obJECT_f0_5_f1_4,obJECT_f0_5_f1_2,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"3 , 5",obJECT_f0_5_f1_5,obJECT_f0_5_f1_3,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"4 , 6",obJECT_f0_5_f1_6,obJECT_f0_5_f1_4,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"5 , 7",obJECT_f0_5_f1_7,obJECT_f0_5_f1_5,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"6 , 8",obJECT_f0_5_f1_8,obJECT_f0_5_f1_6,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"7 , 9",obJECT_f0_5_f1_9,obJECT_f0_5_f1_7,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,1,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,1,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,5,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,5,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,9,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,9,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,1,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,1,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,5,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,5,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,9,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,9,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"1 , 3",obJECT_f0_5_f1_1,obJECT_f0_5_f1_3,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"2 , 4",obJECT_f0_5_f1_2,obJECT_f0_5_f1_4,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"3 , 5",obJECT_f0_5_f1_3,obJECT_f0_5_f1_5,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"4 , 6",obJECT_f0_5_f1_4,obJECT_f0_5_f1_6,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"5 , 7",obJECT_f0_5_f1_5,obJECT_f0_5_f1_7,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"6 , 8",obJECT_f0_5_f1_6,obJECT_f0_5_f1_8,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"7 , 9",obJECT_f0_5_f1_7,obJECT_f0_5_f1_9,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"1 , 3",obJECT_f0_5_f1_3,obJECT_f0_5_f1_1,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"2 , 4",obJECT_f0_5_f1_4,obJECT_f0_5_f1_2,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"3 , 5",obJECT_f0_5_f1_5,obJECT_f0_5_f1_3,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"4 , 6",obJECT_f0_5_f1_6,obJECT_f0_5_f1_4,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"5 , 7",obJECT_f0_5_f1_7,obJECT_f0_5_f1_5,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"6 , 8",obJECT_f0_5_f1_8,obJECT_f0_5_f1_6,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"7 , 9",obJECT_f0_5_f1_9,obJECT_f0_5_f1_7,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,1,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,1,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,5,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,5,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,9,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,9,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,1,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,1,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,5,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,5,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,9,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,9,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"1 , 3",obJECT_f0_5_f1_1,obJECT_f0_5_f1_3,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"2 , 4",obJECT_f0_5_f1_2,obJECT_f0_5_f1_4,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"3 , 5",obJECT_f0_5_f1_3,obJECT_f0_5_f1_5,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"4 , 6",obJECT_f0_5_f1_4,obJECT_f0_5_f1_6,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"5 , 7",obJECT_f0_5_f1_5,obJECT_f0_5_f1_7,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"6 , 8",obJECT_f0_5_f1_6,obJECT_f0_5_f1_8,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"7 , 9",obJECT_f0_5_f1_7,obJECT_f0_5_f1_9,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"1 , 3",obJECT_f0_5_f1_3,obJECT_f0_5_f1_1,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"2 , 4",obJECT_f0_5_f1_4,obJECT_f0_5_f1_2,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"3 , 5",obJECT_f0_5_f1_5,obJECT_f0_5_f1_3,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"4 , 6",obJECT_f0_5_f1_6,obJECT_f0_5_f1_4,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"5 , 7",obJECT_f0_5_f1_7,obJECT_f0_5_f1_5,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"6 , 8",obJECT_f0_5_f1_8,obJECT_f0_5_f1_6,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,"7 , 9",obJECT_f0_5_f1_9,obJECT_f0_5_f1_7,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,1,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,1,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,5,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,5,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,9,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,9,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,1,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,1,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,5,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,5,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,9,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,
+test,5,9,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,,,.mp3,400,6,LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,,,,left right,,,,

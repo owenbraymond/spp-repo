@@ -1,0 +1,124 @@
+rowNo,type,stim1,stim2,stimFormat,ITI,random,trialText,trialTextOptions,keyboard,audio,f0,f1,ITI_ms,ITI_f,ITI_fDuration,timestamp,response,RT
+"8",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_6.mp3,"5","6",400,23,"17.39",8316,left,1496
+"11",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_9.mp3,"5","9",400,24,"16.66",9915,left,1087
+"38",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_9.mp3,"5","9",400,24,"16.67",11204,left,864
+"29",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_9.mp3,"5","9",400,24,"16.67",12502,left,878
+"42",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_4.mp3,"5","4",400,24,"16.68",14270,right,1239
+"17",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_6.mp3,"5","6",400,24,"16.65",15449,left,775
+"22",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_2.mp3,"5","2",400,24,"16.68",18037,right,2080
+"32",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_3.mp3,"5","3",400,23,"17.38",20776,left,2225
+"9",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_7.mp3,"5","7",400,24,"16.67",23311,left,2046
+"26",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_6.mp3,"5","6",400,24,"16.68",25822,left,2098
+"3",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_1.mp3,"5","1",400,24,"16.67",28420,right,2096
+"46",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_8.mp3,"5","8",400,24,"16.65",31130,left,2197
+"33",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_4.mp3,"5","4",400,24,"16.67",33718,left,2178
+"25",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_5.mp3,"5","5",400,24,"16.67",36269,left,2046
+"30",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_1.mp3,"5","1",400,24,"16.67",38919,right,2248
+"15",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_4.mp3,"5","4",400,24,"16.68",42815,right,3432
+"41",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_3.mp3,"5","3",400,24,"16.68",45148,right,1871
+"5",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_3.mp3,"5","3",400,24,"16.68",47827,right,2259
+"36",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_7.mp3,"5","7",400,24,"16.68",50599,left,2320
+"4",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_2.mp3,"5","2",400,24,"16.67",53253,right,2187
+"40",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_2.mp3,"5","2",400,24,"16.67",55739,right,2066
+"27",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_7.mp3,"5","7",400,24,"16.67",58376,left,2222
+"23",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_3.mp3,"5","3",400,24,"16.67",61669,right,2882
+"37",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_8.mp3,"5","8",400,24,"16.68",64130,left,1881
+"20",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_9.mp3,"5","9",400,24,"16.68",66626,left,2029
+"19",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_8.mp3,"5","8",400,24,"16.67",69059,left,2017
+"39",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_1.mp3,"5","1",400,24,"16.66",71573,right,2059
+"10",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_8.mp3,"5","8",400,24,"16.67",74183,left,2193
+"35",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_6.mp3,"5","6",400,24,"16.67",76803,left,2156
+"31",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_2.mp3,"5","2",400,24,"16.65",79418,right,2190
+"28",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_8.mp3,"5","8",400,24,"16.67",81733,left,1895
+"44",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_6.mp3,"5","6",400,24,"16.65",84439,left,2286
+"24",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_4.mp3,"5","4",400,24,"16.67",87020,left,2003
+"13",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_2.mp3,"5","2",400,24,"16.66",89559,right,2122
+"47",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_9.mp3,"5","9",400,24,"16.67",92093,left,2110
+"16",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_5.mp3,"5","5",400,24,"16.66",97162,left,4619
+"21",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_1.mp3,"5","1",399,24,"16.63",99680,right,2100
+"7",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_5.mp3,"5","5",400,24,"16.66",102872,left,2759
+"45",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_7.mp3,"5","7",400,24,"16.67",105466,left,2010
+"43",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_5.mp3,"5","5",400,24,"16.68",111351,right,5470
+"34",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_5.mp3,"5","5",400,24,"16.67",114002,left,2227
+"12",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_1.mp3,"5","1",400,24,"16.67",116569,right,2161
+"18",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_7.mp3,"5","7",400,24,"16.67",119221,left,2234
+"14",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_3.mp3,"5","3",400,24,"16.68",122492,left,2687
+"6",test,instructions,"",.png,"400","3","","",left right,obJECT_f0_5_f1_4.mp3,"5","4",400,24,"16.66",125437,right,2453
+"59",test,obJECT_f0_5_f1_6,obJECT_f0_5_f1_4,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","4 , 6",400,24,"16.67",133271,right,2590
+"104",test,obJECT_f0_5_f1_4,obJECT_f0_5_f1_6,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","4 , 6",400,24,"16.66",136052,left,1149
+"86",test,obJECT_f0_5_f1_7,obJECT_f0_5_f1_5,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","5 , 7",400,24,"16.67",138877,left,1000
+"81",test,obJECT_f0_5_f1_7,obJECT_f0_5_f1_9,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","7 , 9",400,24,"16.67",141685,right,1081
+"54",test,obJECT_f0_5_f1_6,obJECT_f0_5_f1_8,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","6 , 8",400,24,"16.67",144409,left,1005
+"70",test,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","1",400,24,"16.67",147815,left,1656
+"119",test,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","9",400,24,"16.68",150442,left,985
+"94",test,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","9",400,24,"16.66",153042,left,974
+"82",test,obJECT_f0_5_f1_3,obJECT_f0_5_f1_1,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","1 , 3",400,24,"16.68",155852,right,1060
+"60",test,obJECT_f0_5_f1_7,obJECT_f0_5_f1_5,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","5 , 7",400,24,"16.68",159044,left,1555
+"97",test,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","5",400,24,"16.67",161904,left,1227
+"98",test,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","5",400,24,"16.67",164456,left,914
+"105",test,obJECT_f0_5_f1_5,obJECT_f0_5_f1_7,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","5 , 7",400,24,"16.65",167129,left,1018
+"68",test,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","9",400,24,"16.68",169691,left,902
+"121",test,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","1",400,24,"16.67",172462,left,1121
+"83",test,obJECT_f0_5_f1_4,obJECT_f0_5_f1_2,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","2 , 4",400,24,"16.68",175284,right,1054
+"100",test,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","9",400,24,"16.67",177888,left,958
+"65",test,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","5",400,24,"16.68",180789,right,1268
+"55",test,obJECT_f0_5_f1_7,obJECT_f0_5_f1_9,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","7 , 9",400,24,"16.66",183426,right,992
+"111",test,obJECT_f0_5_f1_6,obJECT_f0_5_f1_4,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","4 , 6",400,24,"16.66",185969,right,929
+"117",test,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","5",400,24,"16.66",188671,left,1049
+"69",test,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","1",402,24,"16.77",191322,left,1011
+"66",test,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","5",400,24,"16.67",194053,left,1083
+"126",test,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","9",400,24,"16.67",196843,left,1132
+"93",test,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","9",400,24,"16.66",199504,left,1023
+"61",test,obJECT_f0_5_f1_8,obJECT_f0_5_f1_6,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","6 , 8",400,24,"16.67",202291,right,1111
+"71",test,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","5",400,24,"16.67",204939,left,972
+"89",test,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","1",400,24,"16.68",207935,left,1357
+"58",test,obJECT_f0_5_f1_5,obJECT_f0_5_f1_3,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","3 , 5",400,24,"16.66",210898,right,1319
+"91",test,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","5",400,24,"16.66",213591,left,1043
+"114",test,obJECT_f0_5_f1_9,obJECT_f0_5_f1_7,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","7 , 9",400,24,"16.67",216224,left,975
+"84",test,obJECT_f0_5_f1_5,obJECT_f0_5_f1_3,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","3 , 5",400,24,"16.67",219171,right,1311
+"118",test,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","5",400,24,"16.66",221972,left,1162
+"64",test,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","1",400,24,"16.67",224812,left,1172
+"90",test,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","1",400,24,"16.67",227502,left,1032
+"78",test,obJECT_f0_5_f1_4,obJECT_f0_5_f1_6,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","4 , 6",400,24,"16.67",230187,right,1008
+"72",test,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","5",400,24,"16.66",232923,right,1089
+"125",test,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","9",400,24,"16.68",235612,left,1032
+"92",test,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","5",400,24,"16.67",238258,left,997
+"80",test,obJECT_f0_5_f1_6,obJECT_f0_5_f1_8,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","6 , 8",400,24,"16.67",240875,right,963
+"101",test,obJECT_f0_5_f1_1,obJECT_f0_5_f1_3,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","1 , 3",400,24,"16.68",243941,left,1396
+"62",test,obJECT_f0_5_f1_9,obJECT_f0_5_f1_7,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","7 , 9",400,24,"16.65",246601,left,1021
+"109",test,obJECT_f0_5_f1_4,obJECT_f0_5_f1_2,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","2 , 4",400,24,"16.67",249313,right,1046
+"87",test,obJECT_f0_5_f1_8,obJECT_f0_5_f1_6,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","6 , 8",400,24,"16.67",252017,left,1057
+"88",test,obJECT_f0_5_f1_9,obJECT_f0_5_f1_7,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","7 , 9",400,24,"16.67",254827,left,1031
+"123",test,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","5",400,24,"16.67",257710,right,1264
+"108",test,obJECT_f0_5_f1_3,obJECT_f0_5_f1_1,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","1 , 3",400,24,"16.65",260369,right,979
+"76",test,obJECT_f0_5_f1_2,obJECT_f0_5_f1_4,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","2 , 4",400,24,"16.67",263061,right,1025
+"75",test,obJECT_f0_5_f1_1,obJECT_f0_5_f1_3,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","1 , 3",400,24,"16.67",265960,right,1247
+"67",test,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","9",400,24,"16.67",268584,left,987
+"122",test,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","1",401,24,"16.69",271223,left,985
+"115",test,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","1",400,24,"16.67",273945,left,1081
+"107",test,obJECT_f0_5_f1_7,obJECT_f0_5_f1_9,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","7 , 9",400,24,"16.67",277080,left,1490
+"96",test,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","1",400,24,"16.66",279836,right,1107
+"110",test,obJECT_f0_5_f1_5,obJECT_f0_5_f1_3,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","3 , 5",400,24,"16.67",283271,left,1797
+"116",test,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","1",400,24,"16.67",285932,left,1002
+"79",test,obJECT_f0_5_f1_5,obJECT_f0_5_f1_7,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","5 , 7",400,24,"16.67",288482,right,870
+"99",test,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","9",400,24,"16.67",291068,left,926
+"52",test,obJECT_f0_5_f1_4,obJECT_f0_5_f1_6,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","4 , 6",400,24,"16.65",293672,left,924
+"50",test,obJECT_f0_5_f1_2,obJECT_f0_5_f1_4,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","2 , 4",400,24,"16.68",296899,left,1579
+"124",test,obJECT_f0_5_f1_5,obJECT_f0_5_f1_5,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","5",400,24,"16.67",299746,left,1205
+"112",test,obJECT_f0_5_f1_7,obJECT_f0_5_f1_5,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","5 , 7",400,24,"16.67",302334,left,943
+"74",test,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","9",400,24,"16.67",304989,right,1019
+"63",test,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","1",400,24,"16.66",307517,right,902
+"51",test,obJECT_f0_5_f1_3,obJECT_f0_5_f1_5,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","3 , 5",400,24,"16.67",310099,right,938
+"113",test,obJECT_f0_5_f1_8,obJECT_f0_5_f1_6,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","6 , 8",400,24,"16.68",312651,right,890
+"56",test,obJECT_f0_5_f1_3,obJECT_f0_5_f1_1,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","1 , 3",400,24,"16.67",315166,right,902
+"120",test,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","9",400,24,"16.68",317950,right,1121
+"53",test,obJECT_f0_5_f1_5,obJECT_f0_5_f1_7,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","5 , 7",400,24,"16.67",320624,left,998
+"103",test,obJECT_f0_5_f1_3,obJECT_f0_5_f1_5,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","3 , 5",400,24,"16.68",323219,right,961
+"106",test,obJECT_f0_5_f1_6,obJECT_f0_5_f1_8,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","6 , 8",400,24,"16.67",325918,left,1021
+"102",test,obJECT_f0_5_f1_2,obJECT_f0_5_f1_4,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","2 , 4",400,24,"16.67",328536,right,936
+"49",test,obJECT_f0_5_f1_1,obJECT_f0_5_f1_3,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","1 , 3",400,24,"16.66",331243,left,1074
+"77",test,obJECT_f0_5_f1_3,obJECT_f0_5_f1_5,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","3 , 5",400,24,"16.67",333834,right,966
+"73",test,obJECT_f0_5_f1_9,obJECT_f0_5_f1_9,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","9",400,24,"16.67",336464,left,985
+"95",test,obJECT_f0_5_f1_1,obJECT_f0_5_f1_1,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","1",400,24,"16.68",339207,left,1094
+"57",test,obJECT_f0_5_f1_4,obJECT_f0_5_f1_2,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","2 , 4",400,24,"16.67",342148,right,1354
+"85",test,obJECT_f0_5_f1_6,obJECT_f0_5_f1_4,.mp3,"400","6",LEFT = SAME SOUND; RIGHT = DIFFERENT SOUND,allTrial,left right,"","5","4 , 6",400,24,"16.67",344830,left,1078
